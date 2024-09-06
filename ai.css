@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.rresult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h-s{
+    height: 35rem;
+    width: 100%;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/hero.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.h-s h1{
+    font-size: 60px;
+
+}
+.h-s p{
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    line-height: 48px;
+    margin-block: 20px;
+}
+.h-s form{
+    background-color: white;
+    width: 50%;
+    height: 9%;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+}
+.h-s form input{
+    height: 100%;
+    width: 80%;
+    border: none;
+    padding-inline: 10px;
+}
+.h-s form input:focus{
+    outline: none;
+}
+button{
+    background-color: pink;
+    height: 100%;
+    width: 20%;
+    border: none;
+    padding-inline: 10px;
+    border-radius: 20px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.rresult{
+    padding-block: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.result img{
+    width: 80%;
+    height: 80%;
+}
+.result div img {
+    width: 100%;
+    height: 100%;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 50%;
+}
